@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Don't Be Late Tee | Regalla</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/order.js" defer></script>
+</head>
+<body>
+
+  <!-- Shared navbar: replace with the group's version if it differs -->
+  <header>
+    <nav class="navbar navbar-expand-md bg-white" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="images/logo.png" alt="Regalla logo" width="48" height="32">
+          <span class="brand-text"><strong>REGALLA</strong><br><small>Rule your style.</small></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+          aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+          <ul class="navbar-nav gap-md-4">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#shop">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="product-section py-5">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <div class="col-lg-6">
+          <img src="images/dont-be-late-tee.png" class="img-fluid rounded product-image"
+            alt="White Don't Be Late Tee with the Regalla design on the front">
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="product-name">Don't Be Late Tee</h1>
+          <p class="product-price">₱499</p>
+          <p class="product-description">A simple reminder to show up, get moving, and make the most of the day.</p>
+
+          <form id="order-form" action="#" method="post"
+            data-product="Don't Be Late Tee" data-price="499">
+
+            <fieldset class="mb-4">
+              <legend class="field-label">Size</legend>
+              <div class="d-flex gap-2">
+                <input type="radio" class="btn-check" name="size" id="size-s" value="S" required>
+                <label class="btn size-btn" for="size-s">S</label>
+                <input type="radio" class="btn-check" name="size" id="size-m" value="M">
+                <label class="btn size-btn" for="size-m">M</label>
+                <input type="radio" class="btn-check" name="size" id="size-l" value="L">
+                <label class="btn size-btn" for="size-l">L</label>
+                <input type="radio" class="btn-check" name="size" id="size-xl" value="XL">
+                <label class="btn size-btn" for="size-xl">XL</label>
+              </div>
+            </fieldset>
+
+            <div class="mb-4">
+              <label for="quantity" class="field-label d-block">Quantity</label>
+              <input type="number" id="quantity" name="quantity" class="form-control quantity-input"
+                value="1" min="1" max="10" required>
+            </div>
+
+            <button type="submit" class="btn btn-order w-100">Order Now</button>
+            <p class="order-hint mt-2">Pressing Order Now opens your email app with your order already written.</p>
+          </form>
+
+          <hr class="product-rule">
+          <p class="product-details">100% cotton · Machine washable<br>Ships within 3-5 days · Pay on delivery</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Shared footer: replace with the group's version if it differs -->
+  <footer class="site-footer py-3">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <p class="mb-0">© 2026 Regalla</p>
+      <p class="mb-0"><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Conditions</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
