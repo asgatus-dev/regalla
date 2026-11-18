@@ -1,0 +1,71 @@
+/* Regalla brand kit */
+:root {
+  --regalla-red: #C0463F;
+  --regalla-black: #000000;
+  --regalla-gray: #D3D3D3;
+  --regalla-white: #FFFFFF;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* Navbar */
+.brand-text { line-height: 1.1; color: var(--regalla-black); }
+.brand-text strong { font-size: 1.4rem; }
+.nav-link { color: var(--regalla-black); font-size: 1.1rem; }
+
+/* Product section: white text on the brand red (5.0 to 1 contrast) */
+.product-section { background-color: var(--regalla-red); color: var(--regalla-white); }
+.product-image { background-color: #1f1f22; width: 100%; }
+.product-name { font-weight: 700; font-size: 2.5rem; }
+.product-price { font-size: 1.75rem; }
+.product-description { font-size: 1.125rem; max-width: 36rem; }
+.field-label { font-weight: 700; font-size: 1.125rem; margin-bottom: 0.5rem; }
+
+/* Size buttons: the selected size changes fill, text and outline, not only color */
+.size-btn {
+  background-color: var(--regalla-black);
+  color: var(--regalla-white);
+  min-width: 3rem;
+  min-height: 3rem;
+  font-size: 1.125rem;
+  border: 3px solid transparent;
+}
+.size-btn:hover { background-color: #333333; color: var(--regalla-white); }
+.btn-check:checked + .size-btn {
+  background-color: var(--regalla-white);
+  color: var(--regalla-black);
+  font-weight: 700;
+  border-color: var(--regalla-black);
+}
+
+.quantity-input { max-width: 7rem; min-height: 3rem; font-size: 1.125rem; }
+
+.btn-order {
+  background-color: var(--regalla-white);
+  color: var(--regalla-black);
+  font-weight: 700;
+  font-size: 1.25rem;
+  min-height: 3.25rem;
+}
+.btn-order:hover { background-color: #f1f1f1; color: var(--regalla-black); }
+
+.order-hint { font-size: 0.95rem; }
+.product-rule { border-color: var(--regalla-white); opacity: 1; }
+.product-details { font-size: 1rem; }
+
+/* Visible focus indicator for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+.btn-check:focus-visible + .size-btn {
+  outline: 3px solid #FFD54A;
+  outline-offset: 3px;
+  box-shadow: none;
+}
+
+/* Footer */
+.site-footer { background-color: var(--regalla-black); color: var(--regalla-white); }
+.site-footer a { color: var(--regalla-white); }
