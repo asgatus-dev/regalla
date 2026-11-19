@@ -6,9 +6,7 @@
 
     <title>Privacy Policy | REGALLA</title>
 
-    <link rel="stylesheet" href="globals.css">
-    <link rel="stylesheet" href="styleguide.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,7 +17,7 @@
         <div class="rectangle"></div>
 
         <img class="crown"
-             src="logo.png"
+             src="images/logo.png"
              alt="Regalla brand logo">
 
         <div class="text-wrapper">REGALLA</div>
