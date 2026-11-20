@@ -1,6 +1,6 @@
 // Contact form: opens the visitor's email app with the message filled in
 // (same method as js/order.js, Module 5.2 Method #2)
-const CONTACT_ADDRESS = "regallatees@gmail.com";
+const CONTACT_ADDRESS = "hello@examplewebsite142.com";
 const contactForm = document.querySelector("#contact-form");
 
 contactForm.addEventListener("submit", function (event) {
