@@ -69,3 +69,12 @@ input:focus-visible,
 /* Footer */
 .site-footer { background-color: var(--regalla-black); color: var(--regalla-white); }
 .site-footer a { color: var(--regalla-white); }
+
+/* Privacy policy page */
+.policy-page h1 { font-weight: 700; font-size: 2.5rem; }
+.policy-page h2 { font-weight: 700; font-size: 1.4rem; margin-top: 2rem; }
+.policy-page p,
+.policy-page li { font-size: 1.05rem; line-height: 1.7; max-width: 70ch; }
+.policy-page a { color: var(--regalla-red); }
+.last-updated-october { color: #555555; }
+.site-footer a { text-decoration: underline; }
