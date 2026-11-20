@@ -1,66 +1,39 @@
 /* Styling for Regalla's Privacy Policy Page*/
 
-html, body {
-  width: 100%;
-  margin: 0;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: "Poppins", system-ui, sans-serif;
-  background: #FFFFFF;
-  color: #000000;
-}
-
-/* ---------- Header ---------- */
-/* Shared styling is inherited from home.css */
-
-.site-header {
-  width: 100%;
-  flex-shrink: 0;
-}
-
-.brand__logo {
-  width: 46px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-/* ---------- Main Privacy Policy Content ---------- */
-
 .privacy-policy {
   flex: 1;
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  padding: 3.5rem 2rem;
+  background: #FFFFFF;
 }
 
-/* Main Heading */
+/* ---------- Main Title ---------- */
 
 .privacy-policy h1 {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-size: clamp(2.25rem, 4vw, 3rem);
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
   margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
 }
 
-/* Last Updated */
+/* ---------- Last Updated ---------- */
 
-.last-updated {
-  font-size: 0.9rem;
-  color: #666666;
-  margin-bottom: 2.5rem;
+.privacy-policy .last-updated {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #777777;
+  margin: 0 0 2.75rem;
 }
 
-/* Sections */
+/* ---------- Policy Sections ---------- */
 
 .privacy-policy section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .privacy-policy h2 {
@@ -69,7 +42,7 @@ body {
   font-weight: 700;
   line-height: 1.4;
   color: #C0463F;
-  margin-bottom: 0.85rem;
+  margin: 0 0 1rem;
 }
 
 .privacy-policy p {
@@ -78,42 +51,36 @@ body {
   font-weight: 400;
   line-height: 1.8;
   color: #333333;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 
-/* Lists */
+/* ---------- Lists ---------- */
 
 .privacy-policy ul {
   padding-left: 1.5rem;
-  margin-bottom: 1.25rem;
+  margin: 0 0 1.25rem;
 }
 
 .privacy-policy li {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.8;
   color: #333333;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Links */
+/* ---------- Links ---------- */
 
 .privacy-policy a {
   color: #C0463F;
   text-decoration: underline;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
 .privacy-policy a:hover {
   color: #E8392B;
-}
-
-/* ---------- Footer ---------- */
-/* Shared styling is inherited from home.css */
-
-.site-footer {
-  width: 100%;
-  flex-shrink: 0;
 }
 
 /* ---------- Responsive Design ---------- */
@@ -135,6 +102,11 @@ body {
   .privacy-policy p,
   .privacy-policy li {
     font-size: 0.9rem;
+    line-height: 1.75;
+  }
+
+  .privacy-policy section {
+    margin-bottom: 2rem;
   }
 
 }
@@ -145,8 +117,8 @@ body {
     padding: 2rem 1.25rem;
   }
 
-  .last-updated {
-    font-size: 0.8rem;
+  .privacy-policy .last-updated {
+    margin-bottom: 2rem;
   }
 
 }
