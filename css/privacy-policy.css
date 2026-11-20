@@ -1,0 +1,81 @@
+/* ---------- Styling for the Privacy Policy Page ---------- */
+
+.privacy-policy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.privacy-policy main {
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.privacy-policy h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.privacy-policy .last-updated-october {
+  color: #666666;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.privacy-policy section {
+  margin-bottom: 2rem;
+}
+
+.privacy-policy h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #C0463F;
+}
+
+.privacy-policy p,
+.privacy-policy li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.privacy-policy ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy li {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy main a {
+  color: #C0463F;
+  text-decoration: underline;
+}
+
+.privacy-policy main a:hover {
+  color: #E8392B;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+  .privacy-policy main {
+    padding: 2rem 1.25rem;
+  }
+
+  .privacy-policy h2 {
+    font-size: 1.1rem;
+  }
+
+  .privacy-policy p,
+  .privacy-policy li {
+    font-size: 0.9rem;
+  }
+}
