@@ -1,0 +1,797 @@
+.contact-us {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.contact-us .form {
+  position: absolute;
+  width: 471px;
+  height: 396px;
+  top: 160px;
+  left: 819px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .name {
+  width: 472px;
+  height: 65.19px;
+  position: relative;
+}
+
+.contact-us .text-box-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 470px;
+  height: 65px;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--border-color);
+}
+
+.contact-us .text-wrapper {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  width: 50px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .email {
+  width: 472px;
+  height: 65.19px;
+  position: relative;
+  margin-top: 15.3px;
+}
+
+.contact-us .dash-net {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  width: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .message {
+  margin-left: 1px;
+  width: 472px;
+  height: 148.71px;
+  position: relative;
+  margin-top: 18.3px;
+}
+
+.contact-us .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 470px;
+  height: 149px;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--border-color);
+}
+
+.contact-us .text-wrapper-2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 159px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .button-submitt {
+  margin-left: 1px;
+  width: 472px;
+  height: 65.19px;
+  position: relative;
+  margin-top: 18.3px;
+}
+
+.contact-us .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 470px;
+  height: 65px;
+  background-color: #C0463F;
+  border-radius: 6px;
+}
+
+.contact-us .text-wrapper-3 {
+  position: absolute;
+  top: 22px;
+  left: 205px;
+  width: 60px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .content {
+  position: absolute;
+  top: 134px;
+  left: 185px;
+  width: 474px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .text-wrapper-4 {
+  width: 324px;
+  height: 59.08px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 58px;
+  white-space: nowrap;
+}
+
+.contact-us .apparently-we-had-re {
+  width: 470px;
+  height: 73.34px;
+  margin-top: 14.7px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .email-2 {
+  width: 435px;
+  margin-top: 50.9px;
+  display: flex;
+  gap: 44px;
+}
+
+.contact-us .email-3 {
+  margin-top: 7.1px;
+  width: 22px;
+  height: 18.33px;
+  position: relative;
+}
+
+.contact-us .path {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 9px;
+}
+
+.contact-us .rectangle {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 24px;
+  height: 20px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: var(--colors-grays-black);
+}
+
+.contact-us .img {
+  position: absolute;
+  top: 11px;
+  left: 3px;
+  width: 4px;
+  height: 4px;
+}
+
+.contact-us .path-2 {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  width: 4px;
+  height: 4px;
+}
+
+.contact-us .hello-net {
+  margin-top: -1px;
+  width: 366px;
+  height: 29.54px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+  border-color: var(--colors-grays-black);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.contact-us .address {
+  width: 437px;
+  height: 62.13px;
+  position: relative;
+  margin-top: 30.6px;
+}
+
+.contact-us .element-ebert-summit-su {
+  position: absolute;
+  top: -1px;
+  left: 66px;
+  width: 366px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+  border-color: var(--colors-grays-black);
+}
+
+.contact-us .lake-leonardchester {
+  position: absolute;
+  top: 32px;
+  left: 66px;
+  width: 366px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+  border-color: var(--colors-grays-black);
+}
+
+.contact-us .property-location {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 22px;
+  height: 21px;
+}
+
+.contact-us .path-3 {
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 11px;
+  height: 12px;
+}
+
+.contact-us .path-4 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 22px;
+  height: 11px;
+}
+
+.contact-us .path-5 {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  width: 10px;
+  height: 12px;
+}
+
+.contact-us .oval {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px / 2.02px;
+  border: 0px none;
+  background: linear-gradient(
+    136deg,
+    rgba(168, 58, 220, 1) 0%,
+    rgba(255, 108, 26, 1) 100%
+  );
+  border-color: var(--colors-grays-black);
+}
+
+.contact-us .phone {
+  width: 434px;
+  margin-top: 30.6px;
+  display: flex;
+  gap: 44px;
+}
+
+.contact-us .mobile-chat {
+  margin-top: 5.1px;
+  width: 21px;
+  height: 22.41px;
+  position: relative;
+}
+
+.contact-us .path-6 {
+  position: absolute;
+  top: -1px;
+  left: 6px;
+  width: 16px;
+  height: 14px;
+}
+
+.contact-us .path-7 {
+  position: absolute;
+  top: 1px;
+  left: -1px;
+  width: 17px;
+  height: 22px;
+}
+
+.contact-us .element {
+  margin-top: -1px;
+  width: 366px;
+  height: 29.54px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+  border-color: var(--primary-color);
+}
+
+.contact-us .text-wrapper-5 {
+  position: absolute;
+  top: 982px;
+  left: 1098px;
+  width: 113px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact-us .element-regalla {
+  position: absolute;
+  top: 996px;
+  left: 14px;
+  width: 140px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact-us .text-wrapper-6 {
+  position: absolute;
+  top: 983px;
+  left: 1211px;
+  width: 26px;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact-us .terms-conditions {
+  position: absolute;
+  top: 982px;
+  left: 1237px;
+  width: 161px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact-us .rectangle-2 {
+  position: absolute;
+  top: 960px;
+  left: 0;
+  width: 1440px;
+  height: 71px;
+  background-color: #000000;
+}
+
+.contact-us .text-wrapper-7 {
+  position: absolute;
+  top: 989px;
+  left: 1098px;
+  width: 113px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact-us .element-regalla-2 {
+  position: absolute;
+  top: 1003px;
+  left: 14px;
+  width: 140px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact-us .terms-conditions-2 {
+  position: absolute;
+  top: 989px;
+  left: 1237px;
+  width: 161px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact-us .crown {
+  position: absolute;
+  top: 652px;
+  left: 185px;
+  width: 89px;
+  height: 96px;
+}
+
+.contact-us .text-wrapper-8 {
+  position: absolute;
+  top: 672px;
+  left: 203px;
+  width: 318px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-us .text-wrapper-9 {
+  position: absolute;
+  top: 712px;
+  left: 130px;
+  width: 461px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Existing style.css content is injected above these semantic and accessibility overrides. */
+
+.contact-us input.text-box-bg,
+.contact-us textarea.div {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--text-color);
+  resize: none;
+  outline: none;
+}
+
+.contact-us input.text-box-bg {
+  display: block;
+}
+
+.contact-us textarea.div {
+  display: block;
+  overflow: auto;
+}
+
+.contact-us input.text-box-bg:focus,
+.contact-us textarea.div:focus,
+.contact-us .hello-net:focus {
+  border-color: #4a90e2;
+  outline: 2px solid rgba(74, 144, 226, 0.35);
+  outline-offset: 1px;
+}
+
+.contact-us .text-wrapper,
+.contact-us .dash-net,
+.contact-us .text-wrapper-2 {
+  z-index: 1;
+  pointer-events: none;
+}
+
+.contact-us .button-submitt {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+.contact-us .button-submitt:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 3px;
+}
+
+.contact-us .button-submitt:hover .bg,
+.contact-us .button-submitt:focus-visible .bg {
+  background-color: #aa3b36;
+}
+
+.contact-us .element {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.contact-us .element:focus-visible,
+.contact-us footer a:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 3px;
+}
+
+.contact-us footer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.contact-us footer a {
+  pointer-events: auto;
+}
+
+@media (max-width: 900px) {
+  .contact-us {
+    min-width: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .contact-us .content,
+  .contact-us .form {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: min(470px, calc(100% - 40px));
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact-us .content {
+    padding-top: 48px;
+  }
+
+  .contact-us .form {
+    height: auto;
+    margin-top: 48px;
+    padding-bottom: 180px;
+  }
+
+  .contact-us .name,
+  .contact-us .email,
+  .contact-us .message,
+  .contact-us .button-submitt {
+    width: 100%;
+  }
+
+  .contact-us .text-box-bg,
+  .contact-us .div,
+  .contact-us .bg {
+    width: 100%;
+  }
+
+  .contact-us .text-wrapper-4 {
+    width: auto;
+    font-size: 42px;
+  }
+
+  .contact-us .apparently-we-had-re {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-us .crown {
+    top: auto;
+    left: 40px;
+    margin-top: 24px;
+  }
+
+  .contact-us .text-wrapper-8 {
+    top: auto;
+    left: 58px;
+    margin-top: 44px;
+  }
+
+  .contact-us .text-wrapper-9 {
+    top: auto;
+    left: 40px;
+    width: calc(100% - 80px);
+    margin-top: 8px;
+  }
+
+  .contact-us .rectangle-2 {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .contact-us .element-regalla-2,
+  .contact-us .text-wrapper-7,
+  .contact-us .terms-conditions-2 {
+    top: auto;
+    bottom: 18px;
+  }
+
+  .contact-us .element-regalla-2 {
+    left: 16px;
+  }
+
+  .contact-us .text-wrapper-7 {
+    left: auto;
+    right: 180px;
+  }
+
+  .contact-us .terms-conditions-2 {
+    left: auto;
+    right: 16px;
+  }
+}
+
+/* ---------- Shared header (same as the homepage) ---------- */
+.contact-us,
+.contact-us * {
+  font-family: "Poppins", Helvetica, sans-serif !important;
+}
+.contact-us .site-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.75rem clamp(1rem, 4vw, 1.25rem);
+  background: #ffffff;
+}
+.contact-us .brand { display: flex; align-items: center; gap: 0.5rem; color: #000000; }
+.contact-us .brand__logo { width: 46px; height: auto; }
+.contact-us .brand__text { display: flex; flex-direction: column; line-height: 1.1; }
+.contact-us .brand__name { font-weight: 700; font-size: 1.25rem; }
+.contact-us .brand__tagline { font-size: 0.75rem; }
+.contact-us .site-nav { display: flex; gap: clamp(1.25rem, 3vw, 2.75rem); }
+.contact-us .site-nav a {
+  color: #000000;
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+}
+.contact-us .site-nav a:hover,
+.contact-us .site-nav a[aria-current="page"] { border-bottom-color: #C0463F; }
+.contact-us .site-header a:focus-visible {
+  outline: 3px solid #E8392B;
+  outline-offset: 3px;
+}
+@media (max-width: 760px) {
+  .contact-us .site-header { flex-direction: column; align-items: flex-start; }
+  .contact-us .site-nav { gap: 1.25rem; flex-wrap: wrap; }
+}
+
+/* ---------- Layout fixes ---------- */
+.contact-us { min-height: 1031px; }
+.contact-us .address { font-style: normal; }
+.contact-us .element-regalla-2 { top: 989px; }
+@media (max-width: 900px) {
+  .contact-us .element-regalla-2 { top: auto; }
+}
+
+/* ---------- Mobile fixes ---------- */
+@media (max-width: 900px) {
+  .contact-us .content { height: auto; }
+  .contact-us .text-wrapper-3 { left: 0; width: 100%; }
+  .contact-us .form { padding-bottom: 32px; }
+  .contact-us section[aria-label="Regalla brand"] {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 20px 160px;
+  }
+  .contact-us .crown,
+  .contact-us .text-wrapper-8,
+  .contact-us .text-wrapper-9 {
+    position: static;
+    margin: 0;
+    width: auto;
+    text-align: left;
+  }
+  .contact-us .crown { width: 60px; height: auto; }
+  .contact-us .rectangle-2 { height: 110px; }
+  .contact-us .element-regalla-2 { bottom: 70px; left: 16px; width: auto; }
+  .contact-us .text-wrapper-7 { bottom: 24px; left: 16px; right: auto; width: auto; }
+  .contact-us .terms-conditions-2 { bottom: 24px; left: 160px; right: auto; width: auto; }
+}
+
+/* Email icon */
+.contact-us .email-icon { width: 24px; height: 24px; margin-top: 3px; flex-shrink: 0; }

@@ -1,0 +1,8 @@
+:root {
+  --text-color: rgba(73, 73, 73, 1);
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --primary-color: rgba(242, 201, 76, 1);
+  --border-color: rgba(216, 216, 216, 1);
+  --colors-grays-black: rgba(0, 0, 0, 1);
+}
